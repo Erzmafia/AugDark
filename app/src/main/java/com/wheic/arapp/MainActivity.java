@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
 
                     Anchor anchor = hitResult.createAnchor();
                     ModelRenderable.builder()
-                            .setSource(this, R.raw.haumea_5)
+                            .setSource(this, R.raw.skeleton_2)
                             .setIsFilamentGltf(true)
                             .build()
                             .thenAccept(modelRenderable -> addModel(anchor, modelRenderable))
